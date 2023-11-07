@@ -8,9 +8,14 @@
 :root {
     --main-text-bg-color: rgba(217, 57, 68, 1);
     --pragraph-color: rgba(36, 31, 32, 1);
+    --secondery-paragraph-co: rgba(255, 255, 255, 1);
     --white-color: white;
     --subheader-black-color: black;
     --font-family: Targo4F;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 /* ---------subheader sec code-------- */
@@ -62,7 +67,7 @@ header a {
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 750px;
 }
 
 .hero-text {
@@ -79,9 +84,160 @@ header a {
     border-radius: 50px;
     border: none;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: var(--white-color);
     font-size: 15px;
     font-weight: 400;
+}
+
+/* floting sec codes----------------- */
+.row {
+    justify-content: center;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: -65px;
+    background-color: var(--white-color);
+    border: 1px solid rgba(248, 238, 240, 1);
+    border-radius: 12px;
+    box-shadow: 0px 20px 40px -12px rgba(36, 31, 32, 0.35);
+
+}
+
+.box {
+    margin: 30px;
+}
+
+.box,
+.ionicon,
+svg,
+a {
+    color: var(--main-text-bg-color);
+}
+
+.down-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.facebook-icon,
+.insta-icon {
+    font-size: 30px;
+}
+
+/* menu sec codes---------------------- */
+.menu-section {
+    margin-top: 90px;
+}
+
+.menu-text h4 {
+    font-weight: bold;
+}
+
+.menu-text p {
+    font-size: large;
+    font-weight: bold;
+    color: var(--main-text-bg-color);
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 250px;
+    border: none;
+}
+
+.card img {
+    margin-left: 60px;
+    width: 131px;
+}
+
+.card-body,
+.card-title p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-text {
+    color: var(--pragraph-color);
+}
+
+.menubtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* order sec codes------------------- */
+.delivarytitle {
+    display: flex;
+    justify-content: center;
+}
+
+.delivary-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.delivaryimg-1 {
+    height: 50px;
+}
+
+.delivaryimg-2 {
+    height: 20px;
+}
+
+.delivaryimg-3 {
+    height: 40px;
+}
+
+/* about sec codes --------------------------------- */
+.about-section {
+    background-color: var(--main-text-bg-color)
+}
+.abouttitle{
+    margin-top: 40px;
+    color: var(--white-color);
+}
+.aboutcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.abouttext{
+    margin-bottom: 30px;
+    width: 600px;
+    color: var(--secondery-paragraph-co);
+}
+.aboutimg img{
+    margin-bottom: 50px;
+    height: 190px;
+}
+.aboutbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn-2{
+    background-color: var(--white-color);
+}
+.aboutbtn a{
+    font-weight: 500;
+    color: var(--main-text-bg-color);
 }
