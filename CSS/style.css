@@ -8,14 +8,25 @@
 :root {
     --main-text-bg-color: rgba(217, 57, 68, 1);
     --pragraph-color: rgba(36, 31, 32, 1);
+    --footer-color: rgba(36, 31, 32, 1);
     --secondery-paragraph-co: rgba(255, 255, 255, 1);
     --white-color: white;
     --subheader-black-color: black;
     --font-family: Targo4F;
+    --btn1-shadow: 0px 18px 40px -12px rgba(36, 31, 32, 0.35);
+    --btn2-shadow: 0px 10px 0px -8px rgba(217, 57, 68, 1);
 }
 
-h4 {
+h3 {
     font-weight: bold;
+}
+
+.btn {
+    box-shadow: var(--btn1-shadow);
+}
+
+.btn-1 {
+    box-shadow: var(--btn2-shadow);
 }
 
 /* ---------subheader sec code-------- */
@@ -39,6 +50,9 @@ h4 {
 header a {
     padding-left: 10px;
     color: var(--white-color);
+}
+.dropdown-item{
+    color: var(--main-text-bg-color);
 }
 
 /*------------- Nav sec codes------ */
@@ -78,11 +92,13 @@ header a {
     padding-top: 130px;
 }
 
+
 .btn {
     background-color: var(--main-text-bg-color);
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 50px;
     border: none;
+    box-shadow: var(--btn1-shadow);
 }
 
 .btn a {
@@ -113,8 +129,19 @@ header a {
     margin: 30px;
 }
 
-.box,
-.ionicon,
+.box-2 {
+    display: flex;
+    gap: 5px;
+}
+
+.box-2 p {
+    color: black;
+    font-weight: 650;
+}
+
+.box-2,
+ionicon,
+.down-icon,
 svg,
 a {
     color: var(--main-text-bg-color);
@@ -133,10 +160,6 @@ a {
 /* menu sec codes---------------------- */
 .menu-section {
     margin-top: 90px;
-}
-
-.menu-text h4 {
-    font-weight: bold;
 }
 
 .menu-text p {
@@ -209,35 +232,128 @@ a {
 .about-section {
     background-color: var(--main-text-bg-color)
 }
-.abouttitle{
+
+.abouttitle {
     margin-top: 40px;
     color: var(--white-color);
+    font-weight: bold;
 }
-.aboutcontent{
+
+.aboutcontent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
     gap: 20px;
 }
-.abouttext{
+
+.abouttext {
     margin-bottom: 30px;
     width: 600px;
     color: var(--secondery-paragraph-co);
 }
-.aboutimg img{
+
+.aboutimg img {
     margin-bottom: 50px;
     height: 190px;
 }
-.aboutbtn{
+
+.aboutbtn {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 30px;
 }
-.btn-2{
+
+.btn-2 {
     background-color: var(--white-color);
+    margin-bottom: 40px;
 }
-.aboutbtn a{
+
+.aboutbtn a {
     font-weight: 500;
     color: var(--main-text-bg-color);
+}
+
+/* contact sec codes ------------------- */
+.contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-body h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.box-2 img {
+    height: 17px;
+}
+
+.contect-title,
+.service-title,
+.time-table {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-text-bg-color);
+}
+
+.service-title {
+    display: flex;
+    justify-content: center;
+}
+
+.time-list {
+    padding-left: 40px;
+}
+
+.datetime {
+    display: flex;
+    gap: 40px;
+    font-weight: 650;
+}
+
+/* prees sec--------------------------------- */
+.press-section,
+.press-title {
+    display: flex;
+    justify-content: center;
+}
+
+.press-title {
+    margin-bottom: 30px;
+}
+
+/* Footer--------------------------- */
+.footer {
+    background: var(--footer-color);
+}
+.footer-section{
+    color: var(--main-text-bg-color);
+}
+.footerlogo{
+    color: var(--white-color);
+}
+.footer-text a{
+    color: var(--white-color)
+}
+
+
+.footer-item{
+    color: black ;
+}
+
+.footer-dropdown a{
+    text-decoration: none;
+}
+
+.link,
+.footerday,
+.footertime {
+    text-decoration: none;
+    color: var(--white-color);
+}
+.footer-timetable{
+    font-weight: 650;
+    color: var(--white-color);
 }
