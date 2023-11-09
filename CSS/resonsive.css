@@ -1,6 +1,25 @@
 @media (max-width: 575.98px) {
 
+    .headbody {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
 
+    .box {
+
+        gap: 30px;
+    }
+
+    .chaild-box {
+        margin-top: -10px !important;
+    }
+
+    .box a {
+        font-size: 10px;
+    }
 
     .card {
         margin: auto;
@@ -58,6 +77,9 @@
         display: none;
     }
 
+    .footer-link {
+        margin-top: 50px !important;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */

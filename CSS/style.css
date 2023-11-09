@@ -30,10 +30,11 @@ h3 {
 }
 
 /* ---------subheader sec code-------- */
-header{
+header {
     background-color: var(--pragraph-color);
 }
-.headbody{
+
+.headbody {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -113,11 +114,13 @@ header a {
 }
 
 /* floting sec codes----------------- */
+.floting-section {
+    margin-top: -80px;
+}
 
 .fullbody {
-    margin-left: 40px !important;
-    margin-right: 40px !important;
-    margin: -65px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
     background-color: var(--white-color);
     border: 1px solid rgba(248, 238, 240, 1);
     border-radius: 12px;
@@ -236,7 +239,7 @@ a {
     background-color: var(--main-text-bg-color)
 }
 
-.abouttitle{
+.abouttitle {
     margin-top: 40px;
     color: var(--white-color);
     font-weight: bold;
@@ -370,5 +373,15 @@ a {
 
 .footer-timetable {
     font-weight: 650;
+    color: var(--white-color);
+}
+.footer-link{
+    display: flex;
+    margin-top: 170px;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.footer-link ion-icon {
     color: var(--white-color);
 }
