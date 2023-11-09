@@ -1,17 +1,70 @@
+@media (max-width: 575.98px) {
 
- @media (max-width: 575.98px) {
-    
+
+
+    .card {
+        margin: auto;
+    }
+
+    .orderimg-1,
+    .aboutimg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .about-row {
+        margin-top: 80px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutimg {
+        margin-top: -100px;
+    }
+
+    .contacthead,
+    .servicehead,
+    .time-list,
+    .pressimg-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacttext {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .servicetext {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 60px;
+    }
+
+    .datetime {
+        margin-left: -40px;
+    }
+
+    .footer-text {
+        margin-top: 20px;
+    }
+
+    .footer-table {
+        display: none;
+    }
+
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {}
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-
-   
-
-}
+@media (max-width: 991.98px) {}
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}

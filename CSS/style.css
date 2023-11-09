@@ -30,20 +30,23 @@ h3 {
 }
 
 /* ---------subheader sec code-------- */
-.subheader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    color: var(--white-color);
+header{
     background-color: var(--pragraph-color);
 }
+.headbody{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
-.subheader p {
+
+.header p {
+    color: var(--white-color);
     margin-bottom: 0px;
 }
 
 .date {
+    color: var(--white-color);
     padding-left: 5px;
 }
 
@@ -233,7 +236,7 @@ a {
     background-color: var(--main-text-bg-color)
 }
 
-.abouttitle {
+.abouttitle{
     margin-top: 40px;
     color: var(--white-color);
     font-weight: bold;
@@ -254,7 +257,7 @@ a {
 }
 
 .aboutimg img {
-    margin-top: 120px;
+    margin-top: 55px;
     height: 190px;
 }
 
