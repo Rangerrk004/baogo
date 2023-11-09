@@ -20,9 +20,15 @@
     .box a {
         font-size: 10px;
     }
-
     .card {
-        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 30px;
+        border: 1px solid var(--pragraph-color);
+        box-shadow: 6px 6px 10px rgba(36, 31, 32, 0.35);
     }
 
     .orderimg-1,

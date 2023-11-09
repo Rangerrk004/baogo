@@ -186,13 +186,18 @@ a {
 .card {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* gap: 60px; */
     border: none;
 }
-
-.card img {
-    margin-left: 60px;
+.cardimg{
+    display: flex;
+    justify-content: center;
+}
+.cardimg img {
+    
+    /* margin-left: 70px; */
     width: 131px;
 }
 
@@ -375,13 +380,15 @@ a {
     font-weight: 650;
     color: var(--white-color);
 }
-.footer-link{
+
+.footer-link {
     display: flex;
     margin-top: 170px;
     align-items: center;
     gap: 30px;
     font-size: 30px;
 }
+
 .footer-link ion-icon {
     color: var(--white-color);
 }
