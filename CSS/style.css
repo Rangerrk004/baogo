@@ -119,7 +119,7 @@ header a {
 }
 
 .hero-text {
-    display: flex;
+    /* display: flex; */
     font-family: var(--font-family);
     color: var(--white-color);
     font-size: 40px;
