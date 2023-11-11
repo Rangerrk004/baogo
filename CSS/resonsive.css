@@ -8,6 +8,11 @@
         margin-bottom: 15px;
     }
 
+    .cancel-btn {
+        position: absolute;
+        right: 10px;
+    }
+
     .box {
 
         gap: 30px;
@@ -20,6 +25,7 @@
     .box a {
         font-size: 10px;
     }
+
     .card {
         display: flex;
         justify-content: center;
@@ -28,6 +34,7 @@
         max-height: 100%;
         margin-top: 30px;
         border: 1px solid var(--pragraph-color);
+        padding: 15px 0;
         box-shadow: 6px 6px 10px rgba(36, 31, 32, 0.35);
     }
 
@@ -85,6 +92,12 @@
 
     .footer-link {
         margin-top: 50px !important;
+    }
+
+    .copyright-txt {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px !important;
     }
 }
 

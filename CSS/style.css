@@ -50,16 +50,22 @@ h3 {
     font-weight: 700;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 header {
     background-color: var(--pragraph-color);
 }
 
 .headbody {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    margin: auto;
 }
 
+.headbody p {
+    margin: 0;
+}
 
 .header p {
     color: var(--white-color);
@@ -80,6 +86,8 @@ header a {
     color: var(--main-text-bg-color);
 }
 
+
+
 /*------------- Nav sec codes------ */
 .logo a img {
     height: 24px;
@@ -94,6 +102,7 @@ header a {
     background-color: var(--main-text-bg-color);
     padding: 0px 10px 0px 10px;
     border-radius: 50px;
+    width: fit-content;
 }
 
 .nav-btn a {
@@ -424,4 +433,8 @@ a {
 
 .footer-link ion-icon {
     color: var(--white-color);
+}
+
+.copyright p {
+    margin: 0;
 }
