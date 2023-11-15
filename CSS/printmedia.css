@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* custom css codes here--------------------------- */
+:root {
+    --main-text-color: rgba(217, 57, 68, 1);
+    --pragraph-color: rgba(36, 31, 32, 1);
+    --secondery-paragraph-co: rgba(255, 255, 255, 1);
+    --white-color: white;
+    --subheader-black-color: black;
+    --font-family: Targo4F;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.row p {
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 60px;
+    color: var(--main-text-color);
+}
+
+.fa-pepper-hot {
+    color: var(--main-text-color);
+}
+
+h1 {
+    font-size: 60px;
+}
+h3{
+    font-weight: 700;
+}
+h4,
+h6,
+.symbols {
+    color: var(--main-text-color);
+}
+
+h6 {
+    font-weight: 750;
+}
+
+/* upperbody codes here---------------------------------- */
+.upperbody {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.maintitle {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.bottomline {
+    width: 1130px;
+    border-bottom: 3px solid var(--subheader-black-color);
+}
+
+.body-text {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: 600
+}
+/* medill class css codes----------------------------------- */
+
+.first-price {
+    margin-top: -10px;
+    margin-left: 40px;
+
+}
+
+.sides-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--subheader-black-color);
+}
+
+.prices {
+    margin-top: 75px;
+}
+
+/* choose form */
+.choose-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.choose-text  i{
+    font-size: 25px;
+}
+
+
+.extra-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drinkmenu {
+    margin-left: 300px;
+}
+
+/* downbody css codes here---------------------------------- */
+.downbody {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+
+.downbody-text,
+h6
+p {
+    font-weight: 500;
+}
+.downbody-text{
+    width: 1068px;
+    border-top: 3px solid var(--subheader-black-color);
+    border-bottom: 3px solid var(--subheader-black-color);
+}
+.downbody-text h6{
+    margin-top: 10px;
+}
+.icon-logo img {
+    width: 180px;
+}
